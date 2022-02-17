@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="POST" onsubmit="return validate()">
+        <div class="register">
+            <h1>THÔNG TIN ĐỊA CHỈ </h1>
+            <p>Vui lòng điền thông tin địa chỉ của bạn</p>
+            <hr>
+            <label for="useradd"><br><b>Tên Tỉnh</b></br></label>
+            <select name="city" id="city">
+                <option>__Mời bạn chọn tỉnh thành__</option>
+            </select>
+            <label for="useradd"><br><b>Tên Quận/Huyện</b></br></label>
+            <select name="district" id="district">
+                <option>__Mời bạn chọn quận/huyện__</option>
+            </select>
+            <label for="useradd"><br><b>Tên Xã</b></br></label>
+            <select name="ward" id="ward">
+                <option>__Mời bạn chọn xã__</option>
+            </select>
+            <hr>
+            <button type="submit" class="submit">Gửi</button>
+        </div>
+    </form>
+
+
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
